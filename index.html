@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+    	<!-- meta character set -->
+        <meta charset="utf-8">
+		<!-- Always force latest IE rendering engine or request Chrome Frame -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>José Gatica | TeraBreik</title>		
+		<!-- Meta Description -->
+        <meta name="description" content="Portafolio de José Gatica (Web Developer)">
+        <meta name="keywords" content="jose, gatica, terabreik, frontend, web, developer">
+        <meta name="author" content="José Gatica">
+        <meta name="image" content="img/josegatica.jpg">
+		
+		<!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- CSS
+		================================================== -->
+		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+		
+		<!-- Fontawesome Icon font -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/slit-slider.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+
+		<!-- Modernizer Script for old Browsers -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+
+        <link rel="icon" href="img/terabreik.png" type="image/x-icon">
+
+    </head>
+	
+    <body id="body">
+
+		<!-- preloader -->
+		<div id="preloader">
+            <div class="loder-box">
+            	<div class="battery"></div>
+            </div>
+		</div>
+		<!-- end preloader -->
+
+        <!--
+        Fixed Navigation
+        ==================================== -->
+        <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+                    </button>
+					<!-- /responsive nav button -->
+					
+					<!-- logo -->
+					<h1 class="navbar-brand">
+						<a href="#body">José Gatica</a>
+					</h1>
+					<!-- /logo -->
+                </div>
+
+				<!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li><a href="#body">Home</a></li>
+                        <li><a href="#service">Servicio</a></li>
+                        <li><a href="#portfolio">Portafolio</a></li>
+                        <li><a href="#testimonials">Testimonio</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </nav>
+				<!-- /main nav -->
+				
+            </div>
+        </header>
+        <!--
+        End Fixed Navigation
+        ==================================== -->
+		
+		<main class="site-content" role="main">
+		
+        <!--
+        Home Slider
+        ==================================== -->
+		
+		<section id="home-slider">
+            <div id="slider" class="sl-slider-wrapper">
+
+				<div class="sl-slider">
+				
+					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+
+						<div class="bg-img bg-img-1"></div>
+
+						<div class="slide-caption">
+                            <div class="caption-content">
+                                <h2 class="animated fadeInDown"></h2>
+                                <span class="animated fadeInDown"></span>
+                                <a href="#portfolio" target="blank" class="btn btn-blue btn-effect">Saber más</a>
+                            </div>
+                        </div>
+						
+					</div>
+					
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+					
+						<div class="bg-img bg-img-2"></div>
+						<div class="slide-caption">
+                            <div class="caption-content">
+                                <h2>SysAdmin</h2>
+                                <span></span>
+                                <a href="#service" target="blank" class="btn btn-blue btn-effect">Saber más</a>
+                            </div>
+                        </div>
+						
+					</div>
+					
+					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+						
+						<div class="bg-img bg-img-3"></div>
+						<div class="slide-caption">
+                            <div class="caption-content">
+                                <h2>Asesorías en GNU/Linux</h2>
+                                <span></span>
+                                <a href="#service" target="blank" class="btn btn-blue btn-effect">Saber más</a>
+                            </div>
+                        </div>
+
+					</div>
+
+				</div><!-- /sl-slider -->
+
+                <!-- 
+                <nav id="nav-arrows" class="nav-arrows">
+                    <span class="nav-arrow-prev">Previous</span>
+                    <span class="nav-arrow-next">Next</span>
+                </nav>
+                -->
+                
+                <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
+                    <a href="javascript:;" class="sl-prev">
+                        <i class="fa fa-angle-left fa-3x"></i>
+                    </a>
+                    <a href="javascript:;" class="sl-next">
+                        <i class="fa fa-angle-right fa-3x"></i>
+                    </a>
+                </nav>
+                
+
+				<nav id="nav-dots" class="nav-dots visible-xs visible-sm hidden-md hidden-lg">
+					<span class="nav-dot-current"></span>
+					<span></span>
+					<span></span>
+				</nav>
+
+			</div><!-- /slider-wrapper -->
+		</section>
+		
+        <!--
+        End Home SliderEnd
+        ==================================== -->
+			<!-- about section -->
+			<section id="about" >
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 wow animated fadeInLeft">
+							<div class="recent-works">
+								<h3>Trabajos recientes</h3>
+								<div id="works">
+								<div class="work-item">
+										<p>Diseño, desarrollo y mantención de página web de la OTEC Emprende CAP-Chile (Puerto Montt-Chile).</p>
+									</div>
+									<div class="work-item">
+										<p>Relator y Asesor en Ubuntu Server y SysAdmin en general.</p>
+									</div>
+									<div class="work-item">
+										<p>Soporte informático + diseño y desarrollo de la página web del "Colegio Helvecia" (Valdivia-Chile). Trabajo que aún estoy ejerciendo a medio tiempo.</p>
+									</div>
+									<div class="work-item">
+										<p>Diseño y desarrollo de web de mueblería "Muebles Caruso", reconocidos en el área de muebles a medida.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-7 col-md-offset-1 wow animated fadeInRight">
+							<div class="welcome-block">
+								<h3>Bienvenid@ a mi web</h3>								
+						     	 <div class="message-body">
+									<img src="img/josegatica.jpg" class="pull-left" alt="member">
+						       		<p>Mi nombre es José Gatica, soy Administrador de Servidores y desarrollador web autodidacta. Me dedico desde hace un par de años al desarrollo web para PYMEs y en algunos proyectos de terceros. Además, soy Relator Linux, Contributor en Debian y Debian Chile, dando servicio y solución de problemas a usuarios de GNU/Linux en general. Conversemos y analicemos la mejor opción para tu proyecto... Yo invito el café.</p>
+						     	 </div>
+						       	<a href="#contact" class="btn btn-border btn-effect pull-right">Quiero más info</a>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end about section -->
+			
+			
+			<!-- Service section -->
+			<section id="service">
+				<div class="container">
+					<div class="row">
+					
+						<div class="sec-title text-center">
+							<h2 class="wow animated bounceInLeft">Servicio</h2>
+							<p class="wow animated bounceInRight">Amo mi trabajo, por eso te ofrezco más que sólo diseño y desarrollo.</p>
+						</div>
+						
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fa fa-home fa-3x"></i>
+								</div>
+								<h3>Como en casa</h3>
+								<p>Una buena conversación para llegar al diseño que necesitas para impulsar tu proyecto. </p>
+							</div>
+						</div>
+					
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fa fa-tasks fa-3x"></i>
+								</div>
+								<h3>Constante capacitación</h3>
+								<p>Trabajo conforme a las tendencias de la industria del desarrollo web. Créeme que la industria es muy dinámica. </p>
+							</div>
+						</div>
+					
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fa fa-clock-o fa-3x"></i>
+								</div>
+								<h3>Design UI/UX</h3>
+								<p>La experiencia del usuario es lo primordial. Si no te gusta el producto final, podemos negociar modificaciones post entrega. </p>
+							</div>
+						</div>
+					
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fa fa-heart fa-3x"></i>
+								</div>
+								
+								<h3>¿Te gusta?</h3>
+								<p>Lo mejor de una buena página web, es que el cliente se enamore de ésta. No es sólo una web, es una vitrina de tu producto/servicio. </p>							
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			<!-- end Service section -->
+			
+			<!-- portfolio section -->
+			<section id="portfolio">
+				<div class="container">
+					<div class="row">
+					
+						<div class="sec-title text-center wow animated fadeInDown">
+							<h2>Proyectos desarrollados</h2>
+							<p>Además de haber colaborado en otros proyectos (que no muestro aquí), he trabajado íntegramente en los siguientes desarrollos:</p>
+						</div>
+						
+
+						<ul class="project-wrapper wow animated fadeInUp">
+							<li class="portfolio-item">
+								<img src="img/colegiohelvecia.jpg" class="img-responsive" alt="Página oficial del Colegio Helvecia de Valdivia.">
+								<figcaption class="mask">
+									<h3>Colegio Helvecia</h3>
+									<p>Página oficial del Colegio Helvecia de Valdivia. Basada en html5, css3 y jQuery. </p>
+								</figcaption>
+								<ul class="external">
+									<li><a class="fancybox" title="Colegio helvecia" data-fancybox-group="works" href="img/colegiohelvecia.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a href="http://www.colegiohelvecia.cl" target="blank"><i class="fa fa-link"></i></a></li>
+								</ul>
+							</li>
+							
+							<li class="portfolio-item">
+								<img src="img/emprende.jpg" class="img-responsive" alt="Página web de la OTEC líder en capacitación de la Región de Los Lagos y Los Ríos. ">
+								<figcaption class="mask">
+									<h3>Emprende CAP-Chile</h3>
+									<p>Página web de la OTEC líder en capacitación de la Región de Los Lagos y Los Ríos. </p>
+								</figcaption>
+								<ul class="external">
+									<li><a class="fancybox" title="Emprende CAP-Chile" href="img/emprende.jpg" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li>
+									<li><a href="http://www.emprendecapchile.cl" target="blank"><i class="fa fa-link"></i></a></li>
+								</ul>
+							</li>
+							
+							<li class="portfolio-item">
+								<img src="img/caruso.jpg" class="img-responsive" alt="Web de la fábrica de muebles 'Muebles caruso', quienes cuentan con una amplia trayectoria brindando soluciones a empresas y particulares de la región de Los Ríos. ">
+								<figcaption class="mask">
+									<h3>Muebles Caruso</h3>
+									<p>'Muebles caruso', con amplia trayectoria brindando soluciones a empresas y particulares de la región de Los Ríos. </p>
+								</figcaption>
+								<ul class="external">
+									<li><a class="fancybox" title="Muebles Caruso" data-fancybox-group="works" href="img/caruso.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a href="http://www.mueblescaruso.com" target="blank"><i class="fa fa-link"></i></a></li>
+								</ul>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+			</section>
+			<!-- end portfolio section -->
+			
+			<!-- Testimonial section -->
+			<section id="testimonials" class="parallax">
+				<div class="overlay">
+					<div class="container">
+						<div class="row">
+						
+							<div class="sec-title text-center white wow animated fadeInDown">
+								<h2>Lo que dicen algunos de mis clientes</h2>
+							</div>
+							
+							<div id="testimonial" class=" wow animated fadeInUp">
+								<div class="testimonial-item text-center">
+									<img src="img/viviana.jpg" alt="Our Clients">
+									<div class="clearfix">
+										<span>Viviana Cárcamo</span><br>
+										<p>En la realidad quiero manifestar mis felicitaciones por la metodología de trabajo con la que cuenta José Gatica; la realización y mantención de la página web se ha cumplido siempre con todo lo necesario para poder dar el primer puntapie del proyecto. Sin duda se agradece en todo momento la confianza y la disponibilidad para atender muchas veces dudas y siempre con excelente disposición.</p>
+										<p>Un excelente profesional, totalmente recomendable.</p>
+										<p><b>Emprende Cap-Chile</b></p>
+									</div>
+								</div>
+								<div class="testimonial-item text-center">
+									<img src="img/albertprieto.jpg" alt="Our Clients">
+									<div class="clearfix">
+										<span>Albert Prieto Seguel</span><br>
+										<p>Yo te recomiendo trabajar con José Gatica: por su compromiso, dedicación y adaptación a tu proyecto. A través de su experiencia, nosotros pudimos llevar a cabo el proyector sin mayor dificultad, guiado y muy bien asesorado. Gracias José por la confianza, dedicación y por ser uno más de nosotros en este desafío.</p>
+										<p><b>ALPRISE | Banquetería & Decoración</b></p>
+									</div>
+								</div>
+								<!--
+								<div class="testimonial-item text-center">
+									<img src="img/member-1.jpg" alt="Our Clients">
+									<div class="clearfix">
+										<span>Katty Flower</span>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									</div>
+								</div>
+								-->
+							</div>
+						
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end Testimonial section -->
+			
+			<!-- Price section -->
+			<!--<section id="price">
+				<div class="container">
+					<div class="row">
+					
+					<div class="sec-title text-center wow animated fadeInDown">
+							<h2>Price</h2>
+							<p>Our price for your company</p>
+						</div>
+						
+						<div class="col-md-4 wow animated fadeInUp">
+							<div class="price-table text-center">
+								<span>Silver</span>
+								<div class="value">
+									<span>$</span>
+									<span>24,35</span><br>
+									<span>month</span>
+								</div>
+								<ul>
+									<li>No Bonus Points</li>
+									<li>No Bonus Points</li>
+									<li>No Bonus Points</li>
+									<li>No Bonus Points</li>
+									<li><a href="#">sign up</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-md-4 wow animated fadeInUp" data-wow-delay="0.4s">
+							<div class="price-table featured text-center">
+								<span>Gold</span>
+								<div class="value">
+									<span>$</span>
+									<span>50,00</span><br>
+									<span>month</span>
+								</div>
+								<ul>
+									<li>Free Trial</li>
+									<li>Free Trial</li>
+									<li>Free Trial</li>
+									<li>Free Trial</li>
+									<li><a href="#">sign up</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-md-4 wow animated fadeInUp" data-wow-delay="0.8s">
+							<div class="price-table text-center">
+								<span>Diamond</span>
+								<div class="value">
+									<span>$</span>
+									<span>123,12</span><br>
+									<span>month</span>
+								</div>
+								<ul>
+									<li>All Bonus Points</li>
+									<li>All Bonus Points</li>
+									<li>All Bonus Points</li>
+									<li>All Bonus Points</li>
+									<li><a href="#">sign up</a></li>
+								</ul>
+							</div>
+						</div>
+		
+					</div>
+				</div>
+			</section>  -->
+			<!-- end Price section -->
+			
+			<!-- Social section -->
+			<section id="social" class="parallax">
+				<div class="overlay">
+					<div class="container">
+						<div class="row">
+						
+							<div class="sec-title text-center white wow animated fadeInDown">
+								<h2>SÍGUEME</h2>
+								<p>La mejor forma de seguir en contacto es a través de las redes sociales</p>
+							</div>
+							
+							<ul class="social-button">
+								<li class="wow animated zoomIn"><a href="https://www.facebook.com/terabreik/" target="blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="https://twitter.com/josegatica" target="blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://www.linkedin.com/in/jos%C3%A9-gatica-254a6648?trk=nav_responsive_tab_profile" target="blank"><i class="fa fa-linkedin fa-2x"></i></a></li>							
+							</ul>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end Social section -->
+			
+			<!-- Contact section -->
+			<section id="contact" >
+				<div class="container">
+					<div class="row">
+						
+						<div class="sec-title text-center wow animated fadeInDown">
+							<h2>Datos de Contacto</h2>
+						</div>
+						
+						
+						<div class="col-md-7 contact-form wow animated fadeInLeft">
+							<a href="http://u.fsf.org/16f" target="blank"><img style="height: 50%; width: 50%; border-radius: 50px 50px 0px 50px; align-content: center;" src="//static.fsf.org/nosvn/images/badges/i-support-fs_red-bg.png" alt="I support free software"></a>
+							<!--
+							<form action="#" method="post">
+								<div class="input-field">
+									<input type="text" name="name" class="form-control" placeholder="Tu nombre...">
+								</div>
+								<div class="input-field">
+									<input type="email" name="email" class="form-control" placeholder="Tu Email...">
+								</div>
+								<div class="input-field">
+									<input type="text" name="subject" class="form-control" placeholder="Asunto...">
+								</div>
+								<div class="input-field">
+									<textarea name="message" class="form-control" placeholder="Mensaje..."></textarea>
+								</div>
+						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Enviar</button>
+							</form>
+							-->
+						</div>
+						
+						<div class="col-md-5 wow animated fadeInRight">
+							<address class="contact-details">
+								<h3>José Gatica | TeraBreik</h3>						
+								<p><i class="fa fa-pencil"></i>TeraBreik SpA<span>Serrano 958</span> <span>Valdivia </span><span>Chile</span></p><br>
+								<p><i class="fa fa-phone"></i>+56 9 74899270 </p>
+								<p><i class="fa fa-envelope"></i>contacto@josegatica.cl</p>
+								<p><i class="fa fa-planet"></i>- wiki.debian.org/JoseGatica</p>
+								<p><i class="fa fa-planet"></i>- Te invito a conocer acerca del movimiento del Software Libre y el proyecto GNU en <a href="http://www.fsf.org" target="blank">FSF.org</a> y <a href="http://www.gnu.org" target="blank">GNU.org</a></p>
+							</address>
+						</div>
+			
+					</div>
+				</div>
+			</section>
+			<!-- end Contact section -->
+			
+		</main>
+		
+		<footer id="footer">
+			<div class="container">
+				<div class="row text-center">
+					<div class="footer-content">
+						
+						<p>José Gatica | TeraBreik &copy; 2015-2016 Derechos Reservados</a> </p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<!--Start of Zopim Live Chat Script-->
+		<script type="text/javascript">
+		window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+		d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+		_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+		$.src="//v2.zopim.com/?3sLkPZvf2LLpE8SYZh87NnKkfx4ILmdY";z.t=+new Date;$.
+		type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+		</script>
+		<!--End of Zopim Live Chat Script-->
+		
+		<!-- Essential jQuery Plugins
+		================================================== -->
+		<!-- Main jQuery -->
+        <script src="js/jquery-1.11.1.min.js"></script>
+		<!-- Twitter Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+		<!-- Single Page Nav -->
+        <script src="js/jquery.singlePageNav.min.js"></script>
+		<!-- jquery.fancybox.pack -->
+        <script src="js/jquery.fancybox.pack.js"></script>
+		<!-- Google Map API -->
+		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<!-- Owl Carousel -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- jquery easing -->
+        <script src="js/jquery.easing.min.js"></script>
+        <!-- Fullscreen slider -->
+        <script src="js/jquery.slitslider.js"></script>
+        <script src="js/jquery.ba-cond.min.js"></script>
+		<!-- onscroll animation -->
+        <script src="js/wow.min.js"></script>
+		<!-- Custom Functions -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
